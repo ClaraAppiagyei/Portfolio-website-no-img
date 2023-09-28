@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/c386de89ac.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+           <img src="" alt=""> 
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#services" class="nav_link">My services</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About me</a></li>
+                <li class="nav_item"><a href="index.html#work" class="nav_link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section class="intro">
+        <h1 class="section_title section_tittle_intro">
+            Monthly Calender
+        </h1>
+        <img src="Images/Calender Project.png" alt="" class="intro_img"> 
+    </section>
+
+    
+    <div class="project_link">
+        <a href="https://claraappiagyei.github.io/Calender/">Here's the link to my project</a>
+    </div>
+
+    <div class="project_code">
+        <a href="https://github.com/ClaraAppiagyei/Calender">Here's the source code</a>
+    </div>
+
+    <div class="portfolio_item_individual">
+        <p>In this project I build a monthly calender. The calender shows the current date, the whole month and which day out of the week and month it is.</p>
+        <p>I used HTML, CSS and Javascript for this project. My challenge was to always get the current date displayed and here I had to use Javascript.
+            I made a function for the day, the month and the year to get the current date.
+            In those functions I simply call the current date from the webbrowser by using the function 'new date'.
+        </p>
+    </div>
+
+      <footer class="footer">
+          <a href="mailto:clararasslan@gmail.com" class="footer_link">clararasslan@gmail.com</a>
+          <ul class="social_list">
+              <li class="social_list_item">
+                  <a class="social_list_link" href="https://github.com/ClaraAppiagyei"><i class="fa-brands fa-github"></i></a>
+              </li>
+              <li class="social_list_item">
+                  <a class="social_list_link" href="https://www.linkedin.com/in/clara-rasslan-appiagyei-2249b11b8/"><i class="fa-brands fa-linkedin"></i></a>
+          </ul>
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>
